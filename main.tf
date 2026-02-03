@@ -23,7 +23,7 @@ resource "aws_security_group" "ssh_sg" {
 }
 
 resource "aws_instance" "ami_ec2" {
-  ami           = "ami-0bbb33604596ae205"   # replace with your AMI ID
+  ami           = "ami-00c0af2f040a758cd"   # replace with your AMI ID
   instance_type = "t2.micro"
   key_name      = "Mumbai-key"       # replace with your key pair
 
